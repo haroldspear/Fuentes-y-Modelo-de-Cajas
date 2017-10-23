@@ -1,0 +1,52 @@
+header>h1{
+	text-align: center;
+}
+
+header{
+	background-color: red;
+}
+
+div.caja{
+	border: 1pt solid #cbccc1;
+	width:750px;
+	margin:5px;
+}
+
+div#div1{
+	padding-left:10px;
+
+
+}
+
+span#foto>img{
+	width: 19%;
+}
+
+ul#info{
+	float:right;
+	width: 75%;
+	list-style: none;
+}
+
+div#div2>h2{
+	text-align: center;
+}
+
+div#div2{
+	padding-left: 15px;
+}
+
+div#div3{
+	padding-left: 13px;
+}
+
+div#div3>span>ul,h3.universidad{
+	float:right;
+	width: 40%;
+	list-style:none;
+}
+
+span.img>img{
+	width: 25%
+}
+
