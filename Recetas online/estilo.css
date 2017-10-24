@@ -1,0 +1,11 @@
+h1#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
+}
+
+header>img{
+	background-image: url(https://www.hola.com/imagenes/bloques/cocina/cocina_y_recetas/boton-cocina-definitivo.jpg);
+	background-repeat: no-repeat;
+	opacity: 0.2;
+}
