@@ -2,10 +2,6 @@ header>h1{
 	text-align: center;
 }
 
-header{
-	background-color: red;
-}
-
 div.caja{
 	border: 1pt solid #cbccc1;
 	width:750px;
@@ -14,6 +10,9 @@ div.caja{
 
 div#div1{
 	padding-left:10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 
 
 }
@@ -34,19 +33,76 @@ div#div2>h2{
 
 div#div2{
 	padding-left: 15px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 div#div3{
 	padding-left: 13px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
 }
 
-div#div3>span>ul,h3.universidad{
+div#div4{
+	padding-left: 13px;
+	padding-bottom: 15px;
+}
+
+ul.edu{
+
 	float:right;
-	width: 40%;
+	width: 65%;
 	list-style:none;
 }
 
-span.img>img{
-	width: 25%
+
+li.anio{
+	font-style: italic;
 }
 
+span#uni>img{
+	width: 28%;
+}
+
+span#cole>img{
+	width: 25%;
+}
+
+div#hab{
+	display: inline-flex;
+
+}
+
+div.num{
+	width:45px;
+	height: 45px;
+	border-radius: 75%;
+	background-color: #0040FF;
+}
+
+div.num p{
+	color: white;
+	padding-bottom: 20px;
+	padding-left:  15px;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+p.len{
+	padding-left: 5px;
+}
+
+div.tec{
+	display: inline-flex;
+	margin-right: 50px;
+	font-size:17px;
+	width: 130px;
+	height: 45px;
+	
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color:  lightgray;
+	box-shadow: 3px 3px 3px;
+}
