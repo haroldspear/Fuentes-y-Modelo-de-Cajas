@@ -4,13 +4,17 @@ h1#titulo-sitio{
 	text-shadow: #bc8609;
 }
 
+body{
+	height:100%;
+}
+
 body>div{
-	background-image: url('comida.jpg');
+	content="";
+	background: url('comida.jpg');
 	background-repeat: no-repeat;
 	background-size: 160%;
 	background-position: top left;
 	background-attachment: fixed;
-	background-color: transparent;
 
 	
 }
@@ -30,4 +34,10 @@ p#a ~ div{
 	border-bottom-right-radius: 20px;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
+}
+
+div.detail>img{
+	width:250px;
+	height: 250px;
+	padding-right:20px;
 }
