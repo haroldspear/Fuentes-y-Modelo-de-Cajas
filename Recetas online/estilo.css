@@ -4,8 +4,30 @@ h1#titulo-sitio{
 	text-shadow: #bc8609;
 }
 
-header>img{
-	background-image: url(https://www.hola.com/imagenes/bloques/cocina/cocina_y_recetas/boton-cocina-definitivo.jpg);
+body>div{
+	background-image: url('comida.jpg');
 	background-repeat: no-repeat;
-	opacity: 0.2;
+	background-size: 160%;
+	background-position: top left;
+	background-attachment: fixed;
+	background-color: transparent;
+
+	
+}
+
+header ~ div{
+	display:inline-flex;
+}
+
+p#a ~ div{
+	width:340px;
+	padding-left: 15px;
+	margin: 5px;
+	text-align: justify;
+	border: solid;
+	border-width: 1px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
